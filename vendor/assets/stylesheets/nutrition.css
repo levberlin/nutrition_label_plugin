@@ -1,0 +1,132 @@
+#nutritionfactstable {
+  border: 1px solid black;
+  padding: 3px;
+  color: black;
+  background-color: white;
+  width: 207px;
+  line-height: 12px;
+}
+
+#a {
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+}
+
+th {
+    text-align: left;
+  }
+
+.tdingredient {
+  font-size: 11px;
+}
+
+#servingsize {
+  font-family: Helvetica Regular, Helvetica, Arial, sans-serif;
+  font-size: 8pt;
+  padding-top: 1px;
+}
+
+#thickseparator {
+  padding-top: 1px;
+  border-bottom: 7px solid black;
+}
+
+#hairlineseparator {
+  padding-top: 1px;
+  border-bottom: 1px solid black;
+}
+
+#hairlineseparatornopadding {
+  padding-top: 0px;
+  border-bottom: 1px solid black;
+}
+
+#separator {
+  padding-top: 1px;
+  border-bottom: 3px solid black;
+}
+
+#subhairlineseparator {
+  padding-top: 1px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid black;
+}
+
+#nutrient {
+  font-family: Helvetica Black, Arial Black, Helvetica, Arial, sans-serif;
+  font-size: 8pt;
+  padding-top: 2px;
+}
+
+#nutrientsubgroup {
+  font-family: Helvetica Regular, Helvetica, Arial, sans-serif;
+  font-size: 8pt;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+#nutrientcontent {
+  font-family: Helvetica Regular, Helvetica, Arial, sans-serif;
+  font-size: 8pt;
+}
+
+#vitamin {
+  font-family: Helvetica Regular, Helvetica, Arial, sans-serif;
+  font-size: 8pt;
+  padding-top: 4px;
+}
+
+#vitaminright {
+  position: absolute;
+  padding-top: 0;
+  width: 207px;
+  text-align: right;
+}
+
+#vitaminbullet {
+  font-family: Helvetica Regular, Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+  width: 207px;
+  position: absolute;
+  margin-top: 0px;
+  line-height: 1em;
+  overflow: hidden;
+}
+
+#asterisksection {
+  font-family: Helvetica Regular, Helvetica, Arial, sans-serif;
+  font-size: 7pt;
+  padding-top: 1px;
+}
+
+#right {
+  position: absolute;
+  padding-top: 1px;
+  width: 207px;
+  text-align: right;
+}
+
+#subright {
+  font-family: Helvetica Black, Arial Black, Helvetica, Arial, sans-serif;
+  position: absolute;
+  margin-top: 0px;
+  width: 197px;
+  text-align: right;
+  line-height: 1em;
+  overflow: hidden;
+}
+
+#label {
+  font-family: Helvetica Black, Arial Black, Helvetica, Arial, sans-serif;
+  font-size: 7pt;
+}
+
+#blank {
+  font-family: Helvetica Black, Arial Black, Helvetica, Arial, sans-serif;
+  font-size: 7pt;
+  color: white;
+}
