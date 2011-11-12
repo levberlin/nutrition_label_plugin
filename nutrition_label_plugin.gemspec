@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = NutritionLabelPlugin::VERSION
   s.authors     = "Lev Berlin"
   s.email       = "lev.berlin@gmail.com"
-  s.homepage    = "github.com/levberlin/nutrition_label_plugin"
+  s.homepage    = "http://github.com/levberlin/nutrition_label_plugin"
   s.summary     = "Simple creation of basic nutrition fact label for Rails 3.1 apps"
   s.description = "Gem includes CSS and template for basic nutrition fact label, as well as a method that takes in a hash of optional macronutrients"
 
