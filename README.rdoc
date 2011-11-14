@@ -1,5 +1,5 @@
 = NutritionLabelPlugin
-  Nutrition label generation for Rails 3.1 using the asset pipeline. 
+Nutrition label generation for Rails 3.1 using the asset pipeline. 
 ---
 == Installation
 
