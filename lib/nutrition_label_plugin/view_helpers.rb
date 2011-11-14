@@ -196,7 +196,6 @@ module NutritionLabelPlugin
         </tr>
         </tbody>  
         </table>  
-        <div id='hairlineseparatornopadding'></div> 
         </div>  
         </div>  
         </div>"   

@@ -38,11 +38,6 @@ th {
   border-bottom: 1px solid black;
 }
 
-#hairlineseparatornopadding {
-  padding-top: 0px;
-  border-bottom: 1px solid black;
-}
-
 #separator {
   padding-top: 1px;
   border-bottom: 3px solid black;
