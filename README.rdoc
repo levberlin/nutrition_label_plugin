@@ -7,13 +7,13 @@ Nutrition label generation for Rails 3.1 using the asset pipeline.
     gem nutrition_label_plugin
 2. Otherwise run 'gem install nutrition_label_plugin'
 3. To add the CSS file to your load path, add to your app's application.css file: 
-  *= require nutrition_label_plugin
+    *= require nutrition_label_plugin
 
 == Feature list
 
 Currently, there is a single method available that accepts a hash of all optional 
 parameters. 
-  create_base_label(args)
+    create_base_label(args)
 
 The method returns html output, which you can use in your views to show these
 awesome nutrition fact labels. 
