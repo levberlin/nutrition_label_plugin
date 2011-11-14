@@ -4,8 +4,8 @@ Nutrition label generation for Rails 3.1 using the asset pipeline.
 == Installation
 
 1. If using bundler, add to your Gemfile and run bundle install:
-  gem nutrition_label_plugin
-2. Otherwise run gem install nutrition_label_plugin
+    gem nutrition_label_plugin
+2. Otherwise run 'gem install nutrition_label_plugin'
 3. To add the CSS file to your load path, add to your app's application.css file: 
   *= require nutrition_label_plugin
 
