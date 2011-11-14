@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nutrition_label_plugin (0.0.5)
+    nutrition_label_plugin (0.0.6)
       rails (~> 3.1.1)
 
 GEM
