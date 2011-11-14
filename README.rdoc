@@ -1,9 +1,7 @@
 = NutritionLabelPlugin
 
 Nutrition label generation for Rails 3.1 using the asset pipeline. 
-
 ----
-
 == Installation
 
 1. If using bundler, add to your Gemfile and run bundle install:
@@ -11,9 +9,7 @@ Nutrition label generation for Rails 3.1 using the asset pipeline.
 2. Otherwise run gem install nutrition_label_plugin
 3. To add the CSS file to your load path, add to your app's application.css file: 
   *= require nutrition_label_plugin
-
 ----
-
 == Feature list
 
 Currently, there is a single method available that accepts a hash of all optional 
@@ -22,35 +18,31 @@ parameters.
 
 The method returns html output, which you can use in your views to show these
 awesome nutrition fact labels. 
-
 ---
 === create_base_label arguments
 
 create_base_label takes a number of optional arguments in the form of a hash:
 * :name => "string"
-  :yield => float, in grams
-  :servings => float, # of servings
-  :calories => float, # of calories
-  :fat => float, in grams
-  :saturated_fat => float, in grams
-  :trans_fat => float, in grams
-  :cholesterol => float, in milligrams
-  :sodium => float, in milligrams
-  :carbohydrate => float, in grams
-  :fiber => float, in grams
-  :sugar => float, in grams
-  :vitamin_C => float, in milligrams
-  :vitamin_A => float, in IU (international units)
-  :Iron => float, in milligrams
-  :calcium => float, in milligrams
-
+* :yield => float, in grams
+* :servings => float, # of servings
+* :calories => float, # of calories
+* :fat => float, in grams
+* :saturated_fat => float, in grams
+* :trans_fat => float, in grams
+* :cholesterol => float, in milligrams
+* :sodium => float, in milligrams
+* :carbohydrate => float, in grams
+* :fiber => float, in grams
+* :sugar => float, in grams
+* :vitamin_C => float, in milligrams
+* :vitamin_A => float, in IU (international units)
+* :Iron => float, in milligrams
+* :calcium => float, in milligrams
 ----
-
 == Contributing
 
 If you have any feedback or want to add methods other than the basic nutrition label,
 feel free to fork and send a pull request.
 
 ----
-
 This project rocks and uses MIT-LICENSE.
