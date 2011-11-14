@@ -39,6 +39,13 @@ create_base_label takes a number of optional arguments in the form of a hash:
 * :Iron => float, in milligrams
 * :calcium => float, in milligrams
 
+== Planned features
+
+* Autmoatic rounding according to USDA conventions
+* Additional optional nutrients
+* Additional output formats
+* If you have ideas for features, let me know and I'll see what I can do!
+
 == Contributing
 
 If you have any feedback or want to add methods other than the basic nutrition label,
